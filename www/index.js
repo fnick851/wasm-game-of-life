@@ -25,7 +25,7 @@ const renderLoop = () => {
 
   universe.tick();
 
-  // requestAnimationFrame(renderLoop);
+  requestAnimationFrame(renderLoop);
 };
 
 const drawGrid = () => {
