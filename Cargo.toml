@@ -3,6 +3,9 @@ name = "wasm-game-of-life"
 version = "0.1.0"
 authors = ["Noah <hanlun.song@gmail.com>"]
 edition = "2018"
+description = "A wasm game of life"
+repository = "https://github.com/fnick851/wasm-game-of-life"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
